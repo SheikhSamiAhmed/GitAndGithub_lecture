@@ -1,0 +1,118 @@
+
+Run following command on powershell
+
+winget install --id Git.Git -e --source winget
+
+
+git config --global user.name SheikhSamiAhmed
+git config --global user.email sheikhsami1997@gmail.com
+
+
+password   tpstps_121
+
+
+
+untrack   unmodified      modified       stagged
+
+add file ------------------------------------->
+
+          edit the file ------> 
+                                 save the file-->
+
+								 
+	<--------remove file
+	
+	git status    show git status
+	
+	git add .     add to stagin status
+	
+	git commit -m "my first commit"
+	
+	
+	
+	git checkout filename.txt     previouse commit  me le aaega
+	
+	git checkout -f          sare file pechle commit me save krdo
+
+    git log                  commit history
+	
+	
+	git log -p -1     srf 1 commit lao or changes bh show karo
+	
+	
+	git diff        working directory ko staging se compare karo
+	
+	git diff --stage   staging ko last commit se compare karo
+	
+	git rm              file delete krdo or staging area se remove krdo
+	
+	
+	git rm --cached waste.html      srf stage se remove karo
+	
+	git status -s            short me status btao
+	
+	
+	git ignore      js file ko aap ignore krna chahty ho
+	
+	
+	
+	
+	
+	git branch   make a copy of branch
+	main branch master 
+	
+	git branch feature1    create branch
+	
+	git branch             show branch
+	
+	git checkout feature1   branch 1 me shift hojao
+	
+	git status   
+	
+	
+	git checkout -b newbranch     branch bnao os usme switch hojao
+	
+	
+	
+	
+	echo "# GitAndGithub_lecture" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:SheikhSamiAhmed/GitAndGithub_lecture.git
+git push -u origin main
+
+
+
+git remote add origin git@github.com:SheikhSamiAhmed/GitAndGithub_lecture.git
+git branch -M main
+git push -u origin master
+	
+	
+	
+	Generating a new SSH key and adding it to the ssh-agent
+	
+	
+	ssh-keygen -t ed25519 -C "sheikhsami1997@gmail.com"
+	
+	eval "$(ssh-agent -s)"
+	
+	ssh-add ~/.ssh/id_rsa
+	
+	cat ~/.ssh/id_rsa.pub
+
+	
+	copy public key and paste into your github ssh key
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+								 
+
